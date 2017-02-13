@@ -2454,6 +2454,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/BCM5719-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2577,6 +2584,47 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_AA19_gpior0</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value>1</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_AA19_gpior0/chip-bmc-ast2500.pingroup_gpior0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_AA19_gpior0/chip-bmc-ast2500.pingroup_gpior0/chip-bmc-ast2500.GPIOR0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_AB19_fwspi</id>
 	<property>
 	<id>IO_CONFIG_SELECT</id>
@@ -2638,10 +2686,40 @@
 	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_B20_gpioe0e7_uart3</id>
 	<property>
 	<id>IO_CONFIG_SELECT</id>
-	<value></value>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_B20_gpioe0e7_uart3/chip-bmc-ast2500.pingroup_gpioe0e7</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_B20_gpioe0e7_uart3/chip-bmc-ast2500.pingroup_gpioe0e7/chip-bmc-ast2500.GPIOE0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -2721,6 +2799,47 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_C13_gpioa6_timer7</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value>1</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_C13_gpioa6_timer7/chip-bmc-ast2500.pingroup_gpioa6</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_C13_gpioa6_timer7/chip-bmc-ast2500.pingroup_gpioa6/chip-bmc-ast2500.GPIOA6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_C14_gpioa4_timer5_i2c9/chip-bmc-ast2500.pingroup_i2c9/chip-bmc-ast2500.I2C9</id>
 	<property>
 	<id>DIRECTION</id>
@@ -2753,6 +2872,47 @@
 	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_C2_rgmii2_rmii2_gpiov2u3/chip-bmc-ast2500.rmii2</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_F19_gpiod0d7_sd</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value>1</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_F19_gpiod0d7_sd/chip-bmc-ast2500.pingroup_gpiod0d7</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_F19_gpiod0d7_sd/chip-bmc-ast2500.pingroup_gpiod0d7/chip-bmc-ast2500.GPIOD0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -2870,10 +3030,40 @@
 	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_T17_gpior2r5_spi2</id>
 	<property>
 	<id>IO_CONFIG_SELECT</id>
-	<value></value>
+	<value>1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_T17_gpior2r5_spi2/chip-bmc-ast2500.pingroup_gpior2r5</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_T17_gpior2r5_spi2/chip-bmc-ast2500.pingroup_gpior2r5/chip-bmc-ast2500.GPIOR2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -3065,9 +3255,199 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_Y21_gpioaa0</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value>1</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_Y21_gpioaa0/chip-bmc-ast2500.pingroup_gpioaa0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_Y21_gpioaa0/chip-bmc-ast2500.pingroup_gpioaa0/chip-bmc-ast2500.GPIOAA0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmcserialconnector-1/chip-uartslave.uart-0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/fsi_bit_bang-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/fsi_bit_bang-0/fsi_bit_bang.fsi_clk-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/fsi_bit_bang-0/fsi_bit_bang.fsi_dat-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/fsi_bit_bang-0/fsi_bit_bang.fsi_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/fsi_bit_bang-0/fsi_bit_bang.fsi_master-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/fsi_bit_bang-0/fsi_bit_bang.fsi_mux</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/fsi_bit_bang-0/fsi_bit_bang.fsi_trans</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -47484,6 +47864,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -49186,6 +49570,7 @@
 	<child_id>BCM5719-0</child_id>
 	<child_id>RS232connector-0</child_id>
 	<child_id>bmcserialconnector-1</child_id>
+	<child_id>fsi_bit_bang-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default></default>
@@ -49234,6 +49619,91 @@
 		<source_target>chip-bmc-ast2500.RMII1</source_target>
 		<dest_path>BCM5719-0/</dest_path>
 		<dest_target>BCM5719.port0</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2500.pin_Y21_gpioaa0/chip-bmc-ast2500.pingroup_gpioaa0/chip-bmc-ast2500.GPIOAA0 => fsi_bit_bang-0/fsi_bit_bang.fsi_clk-0</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2500.pin_Y21_gpioaa0/chip-bmc-ast2500.pingroup_gpioaa0/</source_path>
+		<source_target>chip-bmc-ast2500.GPIOAA0</source_target>
+		<dest_path>fsi_bit_bang-0/</dest_path>
+		<dest_target>fsi_bit_bang.fsi_clk-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2500.pin_B20_gpioe0e7_uart3/chip-bmc-ast2500.pingroup_gpioe0e7/chip-bmc-ast2500.GPIOE0 => fsi_bit_bang-0/fsi_bit_bang.fsi_dat-1</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2500.pin_B20_gpioe0e7_uart3/chip-bmc-ast2500.pingroup_gpioe0e7/</source_path>
+		<source_target>chip-bmc-ast2500.GPIOE0</source_target>
+		<dest_path>fsi_bit_bang-0/</dest_path>
+		<dest_target>fsi_bit_bang.fsi_dat-1</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2500.pin_C13_gpioa6_timer7/chip-bmc-ast2500.pingroup_gpioa6/chip-bmc-ast2500.GPIOA6 => fsi_bit_bang-0/fsi_bit_bang.fsi_mux</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2500.pin_C13_gpioa6_timer7/chip-bmc-ast2500.pingroup_gpioa6/</source_path>
+		<source_target>chip-bmc-ast2500.GPIOA6</source_target>
+		<dest_path>fsi_bit_bang-0/</dest_path>
+		<dest_target>fsi_bit_bang.fsi_mux</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2500.pin_F19_gpiod0d7_sd/chip-bmc-ast2500.pingroup_gpiod0d7/chip-bmc-ast2500.GPIOD0 => fsi_bit_bang-0/fsi_bit_bang.fsi_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2500.pin_F19_gpiod0d7_sd/chip-bmc-ast2500.pingroup_gpiod0d7/</source_path>
+		<source_target>chip-bmc-ast2500.GPIOD0</source_target>
+		<dest_path>fsi_bit_bang-0/</dest_path>
+		<dest_target>fsi_bit_bang.fsi_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2500.pin_T17_gpior2r5_spi2/chip-bmc-ast2500.pingroup_gpior2r5/chip-bmc-ast2500.GPIOR2 => fsi_bit_bang-0/fsi_bit_bang.fsi_trans</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2500.pin_T17_gpior2r5_spi2/chip-bmc-ast2500.pingroup_gpior2r5/</source_path>
+		<source_target>chip-bmc-ast2500.GPIOR2</source_target>
+		<dest_path>fsi_bit_bang-0/</dest_path>
+		<dest_target>fsi_bit_bang.fsi_trans</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -108187,6 +108657,576 @@
 	<attribute>
 		<id>TYPE</id>
 		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>fsi_bit_bang-0</id>
+	<type>chip-fsi_bit_bang</type>
+	<is_root>false</is_root>
+	<instance_name>fsi_bit_bang</instance_name>
+	<position>0</position>
+	<child_id>fsi_bit_bang.fsi_clk-0</child_id>
+	<child_id>fsi_bit_bang.fsi_dat-1</child_id>
+	<child_id>fsi_bit_bang.fsi_master-0</child_id>
+	<child_id>fsi_bit_bang.fsi_mux</child_id>
+	<child_id>fsi_bit_bang.fsi_enable</child_id>
+	<child_id>fsi_bit_bang.fsi_trans</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>EC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_TYPE</id>
+		<default>NO_MASTER</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FSI_SLAVE_CASCADE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>fsi_bit_bang.fsi_clk-0</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>fsi_bit_bang.fsi_clk</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>fsi_bit_bang.fsi_dat-1</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>fsi_bit_bang.fsi_dat</instance_name>
+	<position>1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>fsi_bit_bang.fsi_master-0</id>
+	<type>unit-fsi-master</type>
+	<is_root>false</is_root>
+	<instance_name>fsi_bit_bang.fsi_master</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>FSIM</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>CMFSI</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_ENGINE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>FSI_LINK</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>FSI_PORT</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>FSIM</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>FSI</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>fsi_bit_bang.fsi_mux</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>fsi_bit_bang.fsi_mux</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>fsi_bit_bang.fsi_enable</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>fsi_bit_bang.fsi_enable</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>fsi_bit_bang.fsi_trans</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>fsi_bit_bang.fsi_trans</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
