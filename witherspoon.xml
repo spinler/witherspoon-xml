@@ -6830,7 +6830,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/rear-fault-led-0</id>
+	<id>/sys-0/node-0/motherboard-0/rear-fault-0</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -6849,7 +6849,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/rear-fault-led-0/led_enable</id>
+	<id>/sys-0/node-0/motherboard-0/rear-fault-0/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -6872,7 +6872,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/rear-id-led-1</id>
+	<id>/sys-0/node-0/motherboard-0/rear-id-1</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -6891,7 +6891,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/rear-id-led-1/led_enable</id>
+	<id>/sys-0/node-0/motherboard-0/rear-id-1/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -6914,7 +6914,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/rear-power-led-2</id>
+	<id>/sys-0/node-0/motherboard-0/rear-power-2</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -6933,7 +6933,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/rear-power-led-2/led_enable</id>
+	<id>/sys-0/node-0/motherboard-0/rear-power-2/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -7648,7 +7648,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/front-fault-led-4/led_enable</id>
+<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/front-fault-4</id>
+	<property>
+	<id>LED_TYPE</id>
+	<value>ENC-FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/front-fault-4/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -7671,7 +7678,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/front-id-led-5/led_enable</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/front-id-5/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -7694,7 +7701,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/front-power-led-3</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/front-power-3</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -7713,7 +7720,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/front-power-led-3/led_enable</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/front-power-3/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -11286,9 +11293,9 @@
 	<child_id>planar_vpd-0</child_id>
 	<child_id>boxconn-6</child_id>
 	<child_id>teakconn-7</child_id>
-	<child_id>rear-fault-led-0</child_id>
-	<child_id>rear-id-led-1</child_id>
-	<child_id>rear-power-led-2</child_id>
+	<child_id>rear-fault-0</child_id>
+	<child_id>rear-id-1</child_id>
+	<child_id>rear-power-2</child_id>
 	<child_id>UCD90160-0</child_id>
 	<child_id>PCA9552-0</child_id>
 	<child_id>TMP423A-0</child_id>
@@ -11627,12 +11634,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_V3_gpion2_pwm2/chip-bmc-ast2500.pingroup_gpion2/chip-bmc-ast2500.GPION2 => rear-fault-led-0/led_enable</bus_id>
+		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_V3_gpion2_pwm2/chip-bmc-ast2500.pingroup_gpion2/chip-bmc-ast2500.GPION2 => rear-fault-0/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_V3_gpion2_pwm2/chip-bmc-ast2500.pingroup_gpion2/</source_path>
 		<source_target>chip-bmc-ast2500.GPION2</source_target>
-		<dest_path>rear-fault-led-0/</dest_path>
+		<dest_path>rear-fault-0/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -11644,12 +11651,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_W3_gpion4_pwm4/chip-bmc-ast2500.pingroup_gpion4/chip-bmc-ast2500.GPION4 => rear-id-led-1/led_enable</bus_id>
+		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_W3_gpion4_pwm4/chip-bmc-ast2500.pingroup_gpion4/chip-bmc-ast2500.GPION4 => rear-id-1/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_W3_gpion4_pwm4/chip-bmc-ast2500.pingroup_gpion4/</source_path>
 		<source_target>chip-bmc-ast2500.GPION4</source_target>
-		<dest_path>rear-id-led-1/</dest_path>
+		<dest_path>rear-id-1/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -11661,12 +11668,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_U3_gpion3_pwm3/chip-bmc-ast2500.pingroup_gpion3/chip-bmc-ast2500.GPION3 => rear-power-led-2/led_enable</bus_id>
+		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_U3_gpion3_pwm3/chip-bmc-ast2500.pingroup_gpion3/chip-bmc-ast2500.GPION3 => rear-power-2/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_U3_gpion3_pwm3/chip-bmc-ast2500.pingroup_gpion3/</source_path>
 		<source_target>chip-bmc-ast2500.GPION3</source_target>
-		<dest_path>rear-power-led-2/</dest_path>
+		<dest_path>rear-power-2/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -109275,9 +109282,9 @@
 	<child_id>MAX31785-0</child_id>
 	<child_id>BMP280-0</child_id>
 	<child_id>PCA9552-1</child_id>
-	<child_id>front-power-led-3</child_id>
-	<child_id>front-fault-led-4</child_id>
-	<child_id>front-id-led-5</child_id>
+	<child_id>front-power-3</child_id>
+	<child_id>front-fault-4</child_id>
+	<child_id>front-id-5</child_id>
 	<child_id>fanconn-10</child_id>
 	<child_id>fanconn-11</child_id>
 	<child_id>fanconn-12</child_id>
@@ -109391,12 +109398,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>PCA9552-1/PCA9552.gpio-13 => front-fault-led-4/led_enable</bus_id>
+		<bus_id>PCA9552-1/PCA9552.gpio-13 => front-fault-4/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>PCA9552-1/</source_path>
 		<source_target>PCA9552.gpio-13</source_target>
-		<dest_path>front-fault-led-4/</dest_path>
+		<dest_path>front-fault-4/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -109408,12 +109415,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>PCA9552-1/PCA9552.gpio-14 => front-power-led-3/led_enable</bus_id>
+		<bus_id>PCA9552-1/PCA9552.gpio-14 => front-power-3/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>PCA9552-1/</source_path>
 		<source_target>PCA9552.gpio-14</source_target>
-		<dest_path>front-power-led-3/</dest_path>
+		<dest_path>front-power-3/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -109425,12 +109432,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>PCA9552-1/PCA9552.gpio-15 => front-id-led-5/led_enable</bus_id>
+		<bus_id>PCA9552-1/PCA9552.gpio-15 => front-id-5/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>PCA9552-1/</source_path>
 		<source_target>PCA9552.gpio-15</source_target>
-		<dest_path>front-id-led-5/</dest_path>
+		<dest_path>front-id-5/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -112441,10 +112448,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>front-power-led-3</id>
+	<id>front-power-3</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>front-power-led</instance_name>
+	<instance_name>front-power</instance_name>
 	<position>3</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -112675,10 +112682,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>front-fault-led-4</id>
+	<id>front-fault-4</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>front-fault-led</instance_name>
+	<instance_name>front-fault</instance_name>
 	<position>4</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -112816,10 +112823,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>front-id-led-5</id>
+	<id>front-id-5</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>front-id-led</instance_name>
+	<instance_name>front-id</instance_name>
 	<position>5</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -112841,11 +112848,11 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>EnclosureIdentify,1,50,
-        Fan0Identify,1,50,
-        Fan1Identify,1,50,
-        Fan2Identify,1,50,
-        Fan3Identify,1,50,
+		<default>EnclosureIdentify,0,50,
+        Fan0Identify,0,50,
+        Fan1Identify,0,50,
+        Fan2Identify,0,50,
+        Fan3Identify,0,50,
         NA,0,50,
         NA,0,50,
         NA,0,50,
@@ -114052,10 +114059,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>rear-fault-led-0</id>
+	<id>rear-fault-0</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>rear-fault-led</instance_name>
+	<instance_name>rear-fault</instance_name>
 	<position>0</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -114193,10 +114200,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>rear-id-led-1</id>
+	<id>rear-id-1</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>rear-id-led</instance_name>
+	<instance_name>rear-id</instance_name>
 	<position>1</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -114218,11 +114225,11 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>EnclosureIdentify,1,50,
-        Fan0Identify,1,50,
-        Fan1Identify,1,50,
-        Fan2Identify,1,50,
-        Fan3Identify,1,50,
+		<default>EnclosureIdentify,0,50,
+        Fan0Identify,0,50,
+        Fan1Identify,0,50,
+        Fan2Identify,0,50,
+        Fan3Identify,0,50,
         NA,0,50,
         NA,0,50,
         NA,0,50,
@@ -114338,10 +114345,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>rear-power-led-2</id>
+	<id>rear-power-2</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>rear-power-led</instance_name>
+	<instance_name>rear-power</instance_name>
 	<position>2</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
